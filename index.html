@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambrosial</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        color: white;
+        margin:0px;
+        border:0px;
+        background:url("img/r2.jpg.jpg")
+        
+    }
+    .left{
+        position:absolute;
+        left:34px;
+        top:20px;
+        border:2px solid purple;
+        display: inline-block;
+    }
+    .left img{
+        width:200px
+    }
+    .mid{
+        display:block;
+        margin:20px auto;
+        width:40%;
+        border:2px solid red;
+
+    }
+    .right{
+        position : absolute;
+        right:34px;
+        top:20px;
+        border:2px solid black;
+        display:inline-block;
+
+    }
+    .navbar{
+        display:inline-block;
+    }
+    .navbar li{
+        display:inline-block;
+        font-size: 15px;
+
+    }
+    .navbar li a{
+        text-decoration:none;
+        padding:34px 23px;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration:underline;
+        color:grey;
+    }
+    .btn{
+        margin:0px;
+        padding:3px 4px;
+        cursor:pointer;
+    }
+    .btn:hover{
+        background-color:yellow;
+    }
+</style>
+<body>
+    <header class="header">
+        <!--left box for logo-->
+       <div class="left">
+        <img src="img/logo.jpg.jpeg" alt="">
+       </div>
+       <!--mid for navigation-->
+       <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Candles</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+       </div>
+       <!--right for search-->
+       <div class="right">
+        <button class="btn">
+            Call us
+        </button>
+        <button class="btn">
+            Email us
+        </button>
+       </div>
+    </header>
+</body>
+</html>
